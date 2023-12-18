@@ -11,3 +11,6 @@ docker build -t [docker-hub-URL]/[your-username]/[image-name]:version .
 How to push image to Dockerhub
 
 docker push [docker-hub-URL]/[your-username]/[image-name]:version
+
+to filter images by label
+docker images --filter "label=[whatconditiontosearch]=[whatitsmappedto]
