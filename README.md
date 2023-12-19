@@ -19,5 +19,5 @@ docker run env:v1 ping -c 4 google.com / This command prints goole.com 4 times i
 
 docker ps -a /this command gives the logs of a particular container
 
-docker containers are ephemeral. When you remove a container by default it will delete the data
+docker containers are ephemeral(Temporary). When you remove a container by default it will delete the data
 
