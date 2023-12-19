@@ -12,3 +12,6 @@ Inside host we will have a directory for volume.
 This directory can be mounted with any path inside the container
 In Nginx its like
 /var/lib/docker/volume/nginx_data:/usr/share/nginx/html 
+
+Using Volumes we can host data with multiple volumes
+
