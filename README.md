@@ -17,4 +17,7 @@ docker images --filter "label=[whatconditiontosearch]=[whatitsmappedto]
 
 docker run env:v1 ping -c 4 google.com / This command prints goole.com 4 times inside the container env:v1
 
-docker ps -a /this command gives the logs of a particula container
+docker ps -a /this command gives the logs of a particular container
+
+docker containers are ephemeral. When you remove a container by default it will delete the data
+
